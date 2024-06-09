@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: rgb(2, 105, 66);
+    padding: 15px 0;
+    display: block;
+    transition: color 0.3s;
+}
+
+.nav-item a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.content {
+    padding-top: 60px;
+}
+
+section {
+    height: 100vh;
+    padding: 20px;
+}
+
+#home {
+    background-color: lightblue;
+}
+
+#about {
+    background-color: mediumturquoise;
+}
+
+#services {
+    background-color:grey;
+}
+
+#contact {
+    background-color: blanchedalmond;
+}
